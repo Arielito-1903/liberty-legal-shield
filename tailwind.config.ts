@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				playfair: ['Playfair Display', 'serif'],
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -27,6 +31,13 @@ export default {
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
+				},
+				legal: {
+					navy: '#0A2342',
+					dark: '#0D1321',
+					gold: '#D6AD60',
+					silver: '#A6A6A6',
+					accent: '#BF9742',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
